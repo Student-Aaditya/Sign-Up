@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(80, 159, 220);
+}
+h1{
+    color: red;
+    font-size: 2.5rem;
+
+}
+
+.container{
+    margin: 2rem 8rem ;
+}
+.user{
+    margin: .5rem;
+}
+label{
+    /* margin: 1.5rem 1.5rem; */
+    font-size: 1.5rem;
+}
+#email{
+    margin: .5rem 1.5rem;
+}
+
+.btn{
+    font-size: 2rem;
+    margin: 2rem 6.5rem;
+    color: rgb(32, 34, 147);
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 12rem 9rem;
+}
+.img{
+    border-radius: 5rem;
+}
+p{
+    font-size: 2rem;
+    color: gold;
+    text-align: center;
+    margin-top: 3rem;
+}

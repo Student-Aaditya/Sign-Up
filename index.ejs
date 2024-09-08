@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="./stle.css">
+</head>
+
+<body>
+    <% if ( msg.length > 0 ) { %>
+        <p>Message: <%= msg %> </p>
+      <% } %>
+    <div class="content">
+      
+        <div class="img">
+            <img src="img.avif" alt="error">
+        </div>
+        
+        <div class="container">
+         
+            <h1><b>WELCOME USER</b></h1>
+            <h2>SIGN-UP/LOG-IN</h2>
+            <div class="page">
+                <form method="POST"action="/sign">
+                    <div class="user">
+                        <label for="username"> USERNAME:
+                        </label>
+                        <input type="text" name="username"id="username" required>
+                        <hr>
+                        <div class="user">
+                            <label for="email" > EMAIL:
+                            </label>
+                            <input type="text" id="email" name="email" required>
+                        </div>
+                        <hr>
+                        <div class="user">
+                            <label for="
+                    password"> PASSWORD:
+                            </label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <button class="btn ">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
