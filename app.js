@@ -68,11 +68,6 @@ passport.use(new localStrategy(Users.authenticate()));
 passport.serializeUser(Users.serializeUser());
 passport.deserializeUser(Users.deserializeUser());
 
-
-app.get("/",(req,res)=>{
-    res.send("working");
-})
-
 app.get("/sign",(req,res)=>{
     res.render("index.ejs",{msg:req.flash("success")});
 })
