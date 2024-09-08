@@ -50,7 +50,6 @@ const sessionOption = ({
     secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
-    cookie:Date.now()*24*60,
 })
 
 app.use(session(sessionOption));
